@@ -1,0 +1,30 @@
+h1. CP Pad Lock
+
+This extension was just thrown together for my particular environment and a small need I had. Your mileage may vary.
+
+Enabling this extension locks down the CP to Super Admins only. When a non-Super Admin tries to login or access a CP page they get the following message:
+
+*"This site's Control Panel will be offline momentarily while we perform some updates. We apologize for any inconvenience."*
+
+The message is pulled from the <code>system/utilities/offline.html</code> file and tweaked slightly.
+
+I could make it more customizable but this was for an immediate personal need. Let me know if you have any requests or suggestions. Contact "me on twitter":http://twitter.com/erikreagan or via "my website":http://erikreagan.com/contact/.
+
+
+h2. Compatibility
+
+* ExpressionEngine 1.6.x only
+* Requires the <code>system/utilities/offline.html</code> file be in place (it should be unless you specifically deleted or moved it after install)
+
+
+h2. Installation
+
+* Copy <code>ext.cp_pad_lock.php</code> to your <code>system/extensions</code> directory
+* Enable the extension (if you aren't a Super Admin you will immediately be unable to access the CP)
+
+
+h2. Change Log
+
++*April 29, 2010: 1.0.0*+
+
+* Initial Release
