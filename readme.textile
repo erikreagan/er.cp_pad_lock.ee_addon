@@ -4,7 +4,7 @@ This extension was just thrown together for my particular environment and a smal
 
 Enabling this extension locks down the CP to Super Admins only. When a non-Super Admin tries to login or access a CP page they get the following message:
 
-*"This site's Control Panel will be offline momentarily while we perform some updates. We apologize for any inconvenience."*
+!http://files.droplr.com/files/8009172/UFA5c.Screen%20shot%202010-04-29%20at%2015:12:15.png!
 
 The message is pulled from the <code>system/utilities/offline.html</code> file and tweaked slightly.
 
