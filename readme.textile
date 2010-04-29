@@ -8,7 +8,7 @@ Enabling this extension locks down the CP to Super Admins only. When a non-Super
 
 The message is pulled from the <code>system/utilities/offline.html</code> file and tweaked slightly.
 
-I could make it more customizable but this was for an immediate personal need. Let me know if you have any requests or suggestions. Contact "me on twitter":http://twitter.com/erikreagan or via "my website":http://erikreagan.com/contact/.
+I could make it more customizable but this was for an immediate personal need where I had to do some irregular database tweaking in a production environment. I didn't want any entries being updated while I was modifying things. Let me know if you have any requests or suggestions. Contact "me on twitter":http://twitter.com/erikreagan or via "my website":http://erikreagan.com/contact/.
 
 
 h2. Compatibility
@@ -28,3 +28,9 @@ h2. Change Log
 +*April 29, 2010: 1.0.0*+
 
 * Initial Release
+
+h2. To Do Thoughts
+
+* Add a visual indicator in the CP when the Pad Lock is on (reminding the Super Admins(s) to turn it off eventually)
+* Allow settings to choose member groups to lock out when enabled (rather that just Super Admins)
+* Allow for customization of "Locked out" message/view
