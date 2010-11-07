@@ -2,32 +2,42 @@ h1. CP Pad Lock
 
 This extension was just thrown together for my particular environment and a small need I had. Your mileage may vary.
 
-Enabling this extension locks down the CP to Super Admins only. When a non-Super Admin tries to login or access a CP page they get the following message:
+Enabling this extension locks down the CP to Super Admins only. When a non-Super Admin tries to login or access a CP page they are presented with a system message which you can customize in the extension settings.
 
-!http://files.droplr.com/files/8009172/UFA5c.Screen%20shot%202010-04-29%20at%2015:12:15.png!
-
-The message is pulled from the <code>system/utilities/offline.html</code> file and tweaked slightly.
-
-I could make it more customizable but this was for an immediate personal need where I had to do some irregular database tweaking in a production environment. I didn't want any entries being updated while I was modifying things and there were way too many member groups with CP access to disable it one-by-one. Let me know if you have any requests or suggestions. Contact "me on twitter":http://twitter.com/erikreagan or via "my website":http://erikreagan.com/contact/.
+It is a very basic extension right now but have a set of features I intend to add down the road. Let me know if you have any requests or suggestions. Contact "me on twitter":http://twitter.com/erikreagan or via "my website":http://erikreagan.com/contact/.
 
 
 h2. Compatibility
 
-* ExpressionEngine 1.6.x only
-* Requires the <code>system/utilities/offline.html</code> file be in place (it should be unless you specifically deleted or moved it after install)
+* ExpressionEngine 1.6.x+
+* ExpressionEngine 2.x+
 
 
 h2. Installation
 
-* Copy <code>ext.cp_pad_lock.php</code> to your <code>system/extensions</code> directory
-* Enable the extension (if you aren't a Super Admin you will immediately be unable to access the CP)
+*For EE1*
+* Copy <code>cp_pad_lock/ext.cp_pad_lock_ext.php</code> to your <code>system/extensions</code> directory
+* Copy <code>cp_pad_lock/language/english/lang.cp_pad_lock.php</code> to your <code>system/language/english</code> directory
+
+*For EE2*
+* Copy <code>cp_pad_lock</code> to your <code>system/ExpressionEngine/third_party</code> directory
+
+*For Both*
+* Enable the extension & customize the message (if you aren't a Super Admin you will immediately be unable to access the CP)
 
 
 h2. Change Log
 
-+*April 29, 2010: 1.0.0*+
++*Nov 7, 2010: 1.5.0*+
+
+* Updated to EE2 compatible
+* Added extension settings for message content
+* Removed dependency for system offline message location
+
+*April 29, 2010: 1.0.0*
 
 * Initial Release
+
 
 h2. To Do Thoughts
 

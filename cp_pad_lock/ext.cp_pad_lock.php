@@ -1,0 +1,1 @@
+<?php include('ext.cp_pad_lock_ext.php'); ?>
