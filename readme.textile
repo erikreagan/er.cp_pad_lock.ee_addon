@@ -17,7 +17,7 @@ h2. Installation
 
 *For EE1*
 * Copy <code>cp_pad_lock/ext.cp_pad_lock_ext.php</code> to your <code>system/extensions</code> directory
-* Copy <code>cp_pad_lock/language/english/lang.cp_pad_lock.php</code> to your <code>system/language/english</code> directory
+* Copy <code>cp_pad_lock/language/english/lang.cp_pad_lock_ext.php</code> to your <code>system/language/english</code> directory
 
 *For EE2*
 * Copy <code>cp_pad_lock</code> to your <code>system/ExpressionEngine/third_party</code> directory

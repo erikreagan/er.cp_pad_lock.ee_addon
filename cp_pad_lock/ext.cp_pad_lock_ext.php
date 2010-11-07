@@ -17,7 +17,7 @@ class Cp_pad_lock_ext
    private  $settings       = array();
 
    public   $name           = 'CP Pad Lock';
-   public   $version        = '1.5.0';
+   public   $version        = '1.1.0';
    public   $description    = 'Lock the Control Panel down to only Super Admin access';
    public   $settings_exist = 'y';
    public   $docs_url       = '';
